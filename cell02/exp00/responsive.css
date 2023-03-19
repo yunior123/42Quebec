@@ -1,0 +1,28 @@
+table {
+	width: 100%;
+	max-width: 600px;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 20px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	border: 2px solid black;
+}
+
+.case1 {
+	background-color: #008080;
+}
+
+.case2 {
+	background-color: #FFA500;
+}
+
+@media (max-width: 600px) {
+	td {
+		padding: 10px;
+		font-size: 16px;
+	}
+}
